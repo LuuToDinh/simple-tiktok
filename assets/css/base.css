@@ -1,0 +1,117 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --pink-color: #fe2c55;
+    --blue-color: #20d5ec;
+    --text-color: #161823;
+    --border-color: #D7D7D9;
+    --hover-href-link-color: #f8f8f8;
+
+    --box-shadow: 0px -4px 32px rgb(0, 0, 0, 0.12);
+    --border-radius: 8px;
+    
+    --height-header: 60px;
+}
+
+*{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: SofiaPro, Arial,sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+
+.btn {
+    height: 36px;
+    border: 1px solid #e3e3e4;
+    background-color: var(--white-color);
+    outline: none;
+    border-radius: 2px;
+    min-width: 112px;
+}
+
+.btn:hover {
+    background-color: var(--hover-href-link-color);
+    cursor: pointer;
+}
+
+.nav-account {
+    padding: 20px 0;
+    border-top: 1px solid var(--border-color);
+    position: relative;
+    left: 2px;
+    right: 2px;
+}
+
+.nav-account-title {
+    color: #50525a;
+    font-size: 1.4rem;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.nav-account__list {
+    list-style: none;
+}
+
+.nav-account__item {
+
+}
+
+.nav-account__item-link {
+    text-decoration: none;
+    display: flex;
+    padding: 8px 12px;
+    padding-left: 0;
+    border-radius: 6px;
+}
+
+.nav-account__item-link:hover {
+    background-color: var(--hover-href-link-color);
+}
+
+.nav-account__item-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.nav-account__item-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-account__item-nickname {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 550;
+}
+
+.nav-account__item-nickname-blue-tick {
+    color: var(--blue-color);
+    font-size: 1.3rem;
+    margin-left: 1px;
+    position: relative;
+    top: -2px;
+}
+
+.nav-account__truename {
+    font-size: 1.2rem;
+    color: #161823bf;
+}
+
+.nav-account-more {
+    font-size: 1.4rem;
+    color: var(--pink-color);
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 550;
+}
+
